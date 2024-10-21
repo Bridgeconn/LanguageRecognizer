@@ -11,3 +11,6 @@ Methodology:
     have a simple ML model that does text classification
     based on simple features like presence of common words or frequent n-grams.
 
+Usage:
+
+> Coming soon!
