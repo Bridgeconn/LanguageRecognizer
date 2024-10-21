@@ -1,6 +1,6 @@
-# LanguageRecognizer
+# Language Recognizer
 Given a text, examine the script and word formations to determine the language. 
-Aim is to correctly distinguish those languages that follow same script.
+The aim is to correctly distinguish those languages that follow same script.
 Meant to be used as the fist step for text processing pipelines that use language dependant next steps like spell checks or rendering.
 
 Technology: Python

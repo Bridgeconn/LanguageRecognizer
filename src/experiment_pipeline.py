@@ -2,7 +2,7 @@
 
 from enum import Enum
 
-from data_prep import get_train_test_data
+from data_prep import get_ngrams, get_freq_words, get_wordpiece
 from train import train_model_svm, train_model_decisiontree, train_model_MNNB, train_model_LR
 from eval import run_eval
 
@@ -33,7 +33,37 @@ class FeatureExtraction(Enum):
 
 
 def experiment_run(exp_no, script_name, data_file, algo, feat, test_set_ratio, model_path):
-	train_data, test_data = get_train_test_data(data_file, feat, test_set_ratio)
+	train_data = None
+	test_data = None
+	if feat==FeatureExtraction.FREQ_WORDS_ALL:
+		train_data, test_data = get_freq_words(data_file, num=None, test_set_ratio)
+	elif feat==FeatureExtraction.FREQ_WORD_DIM2000:
+		train_data, test_data = get_freq_words(data_file, num=2000, test_set_ratio)
+	elif feat==FeatureExtraction.FREQ_WORD_DIM5000 :
+		train_data, test_data = get_freq_words(data_file, num=5000, test_set_ratio)
+	elif feat==FeatureExtraction.FREQ_WORD_DIM10000 :
+		train_data, test_data = get_freq_words(data_file, num=10000, test_set_ratio)
+	elif feat==FeatureExtraction.NGRAMS_3_ALL :
+		train_data, test_data = get_ngrams(data_file, num=None, ns=[3] test_set_ratio)
+	elif feat==FeatureExtraction.NGRAMS_2_3_ALL :
+		train_data, test_data = get_ngrams(data_file, num=None, ns=[2,3] test_set_ratio)
+	elif feat==FeatureExtraction.NGRAMS_2_3_4_ALL :
+		train_data, test_data = get_ngrams(data_file, num=None, ns=[2,3,4] test_set_ratio)
+	elif feat==FeatureExtraction.NGRAMS_3_2000 :
+		train_data, test_data = get_ngrams(data_file, num=2000, ns=[3] test_set_ratio)
+	elif feat==FeatureExtraction.NGRAMS_2_3_2000 :
+		train_data, test_data = get_ngrams(data_file, num=2000, ns=[2,3] test_set_ratio)
+	elif feat==FeatureExtraction.NGRAMS_2_3_4_2000 :
+		train_data, test_data = get_ngrams(data_file, num=2000, ns=[2,3,4] test_set_ratio)
+	elif feat==FeatureExtraction.NGRAMS_3_DIM5000 :
+		train_data, test_data = get_ngrams(data_file, num=5000, ns=[3] test_set_ratio)
+	elif feat==FeatureExtraction.NGRAMS_2_3_DIM5000 :
+		train_data, test_data = get_ngrams(data_file, num=5000, ns=[2,3] test_set_ratio)
+	elif feat==FeatureExtraction.NGRAMS_2_3_4_DIM5000 :
+		train_data, test_data = get_ngrams(data_file, num=5000, ns=[2,3,4] test_set_ratio)
+	elif feat==FeatureExtraction.WORDPIECE:
+		train_data, test_data  =get_wordpiece(data_file, test_set_ratio)
+
 
 	model = None
 	if algo == Algorithm.MNNB:
@@ -47,7 +77,7 @@ def experiment_run(exp_no, script_name, data_file, algo, feat, test_set_ratio, m
 	
 	model.save(model_path)
 
-	results = run_eval(model, test_data, log_file=f"../logs/{exp_no}_{scipt_name}")
+	run_eval(model, test_data, log_file=f"../logs/{exp_no}_{scipt_name}")
 
 
 if "__name__" == "__main__":
@@ -59,3 +89,14 @@ if "__name__" == "__main__":
 	algo = Algorithm.MNNB
 	feat = FeatureExtraction.NGRAMS_2_3_DIM5000
 	test_set_ratio = 0.2
+
+	experiment_run(
+			exp_no=exp_no,
+			script_name=script_name,
+			data_file = data_prep,
+			model_path = model_path,
+			algo = algo,
+			feat = feat,
+			test_set_ratio = test_set_ratio
+
+		)
