@@ -28,24 +28,10 @@ def preprocess_vachan_data(inputpath, outputpath):
 
 
 if __name__ == "__main__":
-    # Set up argument parsing
     parser = argparse.ArgumentParser(description="Process Vachan data and combine into a single CSV file")
     parser.add_argument('--inputpath', type=str, required=True, help='Path to the input folder containing the combined CSV files')
     parser.add_argument('--outputpath', type=str, required=True, help='Path to the output folder where the final CSV file will be saved')
 
-    # Parse the arguments
     args = parser.parse_args()
 
-    # Call the preprocess function with the provided input and output paths
     preprocess_vachan_data(args.inputpath, args.outputpath)
-
-# import unicodedataplus as ud
-
-# # print(unicodedata2.lookup(u'Ф'))  #('Cyrillic', 'L')
-# # print(unicodedata2.lookup(u'の'))  #('Hiragana', 'Lo')
-# # print(unicodedata2.lookup(u'★'))  #('Common', 'So')
-
-# print(ud.script('अ'))  #('Cyrillic')
-# print(ud.script('の'))  #('Hiragana')
-# print(ud.script_extensions('Ф'))  #('Common')
-# print(ud.name('अ'))
