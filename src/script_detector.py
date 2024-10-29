@@ -1,3 +1,6 @@
+import unicodedataplus as ud
+from collections import Counter
+
 def detect_script(text):
     script_counts = Counter()
     limit = 50
@@ -11,8 +14,7 @@ def detect_script(text):
                 print(f"Error getting script for character {char}: {e}")
 
     if not script_counts:
-        return None
+        return 'Unknown'
 
     most_common_script = script_counts.most_common(1)[0][0]
-
     return most_common_script
