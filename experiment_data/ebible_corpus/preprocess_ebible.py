@@ -66,7 +66,7 @@ def preprocess_ebible_data(inputpath, outputpath):
 
         cleaned_lines = [line.strip() for line in lines if line.strip() and '<range>' not in line]
 
-        limited_lines = cleaned_lines[:2000]
+        limited_lines = cleaned_lines[:1000]
 
         if not limited_lines:
             print(f"No valid text found in {file_name}, skipping.")
