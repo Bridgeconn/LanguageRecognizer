@@ -1,5 +1,6 @@
 '''Configure and run an end to end experiment pipeline'''
 
+import joblib
 from enum import Enum
 
 from data_prep import get_ngrams, get_freq_words, get_wordpiece
@@ -35,34 +36,35 @@ class FeatureExtraction(Enum):
 def experiment_run(exp_no, script_name, data_file, algo, feat, test_set_ratio, model_path):
 	train_data = None
 	test_data = None
+	script_name = script_name.capitalize()
 	if feat==FeatureExtraction.FREQ_WORDS_ALL:
-		train_data, test_data = get_freq_words(data_file, num=None, test_set_ratio)
+		train_data, test_data = get_freq_words(data_file, num=None, test_set_ratio=test_set_ratio)
 	elif feat==FeatureExtraction.FREQ_WORD_DIM2000:
-		train_data, test_data = get_freq_words(data_file, num=2000, test_set_ratio)
+		train_data, test_data = get_freq_words(data_file, num=2000, test_set_ratio=test_set_ratio)
 	elif feat==FeatureExtraction.FREQ_WORD_DIM5000 :
-		train_data, test_data = get_freq_words(data_file, num=5000, test_set_ratio)
+		train_data, test_data = get_freq_words(data_file, num=5000, test_set_ratio=test_set_ratio)
 	elif feat==FeatureExtraction.FREQ_WORD_DIM10000 :
-		train_data, test_data = get_freq_words(data_file, num=10000, test_set_ratio)
+		train_data, test_data = get_freq_words(data_file, num=10000, test_set_ratio=test_set_ratio)
 	elif feat==FeatureExtraction.NGRAMS_3_ALL :
-		train_data, test_data = get_ngrams(data_file, num=None, ns=[3] test_set_ratio)
+		train_data, test_data = get_ngrams(data_file, num=None, ns=[3], test_set_ratio=test_set_ratio)
 	elif feat==FeatureExtraction.NGRAMS_2_3_ALL :
-		train_data, test_data = get_ngrams(data_file, num=None, ns=[2,3] test_set_ratio)
+		train_data, test_data = get_ngrams(data_file, num=None, ns=[2,3], test_set_ratio=test_set_ratio)
 	elif feat==FeatureExtraction.NGRAMS_2_3_4_ALL :
-		train_data, test_data = get_ngrams(data_file, num=None, ns=[2,3,4] test_set_ratio)
+		train_data, test_data = get_ngrams(data_file, num=None, ns=[2,3,4], test_set_ratio=test_set_ratio)
 	elif feat==FeatureExtraction.NGRAMS_3_2000 :
-		train_data, test_data = get_ngrams(data_file, num=2000, ns=[3] test_set_ratio)
+		train_data, test_data = get_ngrams(data_file, num=2000, ns=[3], test_set_ratio=test_set_ratio)
 	elif feat==FeatureExtraction.NGRAMS_2_3_2000 :
-		train_data, test_data = get_ngrams(data_file, num=2000, ns=[2,3] test_set_ratio)
+		train_data, test_data = get_ngrams(data_file, num=2000, ns=[2,3], test_set_ratio=test_set_ratio)
 	elif feat==FeatureExtraction.NGRAMS_2_3_4_2000 :
-		train_data, test_data = get_ngrams(data_file, num=2000, ns=[2,3,4] test_set_ratio)
+		train_data, test_data = get_ngrams(data_file, num=2000, ns=[2,3,4], test_set_ratio=test_set_ratio)
 	elif feat==FeatureExtraction.NGRAMS_3_DIM5000 :
-		train_data, test_data = get_ngrams(data_file, num=5000, ns=[3] test_set_ratio)
+		train_data, test_data = get_ngrams(data_file, num=5000, ns=[3], test_set_ratio=test_set_ratio)
 	elif feat==FeatureExtraction.NGRAMS_2_3_DIM5000 :
-		train_data, test_data = get_ngrams(data_file, num=5000, ns=[2,3] test_set_ratio)
+		train_data, test_data = get_ngrams(data_file, num=5000, ns=[2,3], test_set_ratio=test_set_ratio)
 	elif feat==FeatureExtraction.NGRAMS_2_3_4_DIM5000 :
-		train_data, test_data = get_ngrams(data_file, num=5000, ns=[2,3,4] test_set_ratio)
+		train_data, test_data = get_ngrams(data_file, num=5000, ns=[2,3,4], test_set_ratio=test_set_ratio)
 	elif feat==FeatureExtraction.WORDPIECE:
-		train_data, test_data  =get_wordpiece(data_file, test_set_ratio)
+		train_data, test_data  =get_wordpiece(data_file, test_set_ratio=test_set_ratio)
 
 
 	model = None
@@ -74,29 +76,27 @@ def experiment_run(exp_no, script_name, data_file, algo, feat, test_set_ratio, m
 		model = train_model_decisiontree(train_data)
 	elif algo == Algorithm.LOGISTIC_REGRESSION:
 		model = train_model_LR(train_data)
-	
-	model.save(model_path)
 
-	run_eval(model, test_data, log_file=f"../logs/{exp_no}_{scipt_name}")
+	joblib.dump(model, f"{model_path}.joblib")
 
+	run_eval(model, test_data, log_file=f"../logs/{exp_no}_{script_name}")
 
-if "__name__" == "__main__":
+if __name__ == "__main__":
 	'''Configure the required experiment setup here for each run'''
 	exp_no = 1
 	script_name = 'latin'
-	data_file = f"../experiment_data/ebible_corpus/processed/{script_name}.txt"
+	data_file = f"../experiment_data/ebible_corpus/ebible_corpus_data/{script_name}_data.csv"
 	model_path = f"../models/run_{exp_no}_{script_name}"
 	algo = Algorithm.MNNB
 	feat = FeatureExtraction.NGRAMS_2_3_DIM5000
 	test_set_ratio = 0.2
 
 	experiment_run(
-			exp_no=exp_no,
-			script_name=script_name,
-			data_file = data_prep,
+			exp_no = exp_no,
+			script_name = script_name,
+			data_file = data_file,
 			model_path = model_path,
 			algo = algo,
 			feat = feat,
 			test_set_ratio = test_set_ratio
-
 		)
