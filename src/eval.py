@@ -3,7 +3,7 @@ from sklearn import metrics
 import logging
 
 def run_eval(model, test_data, log_file):
-    logging.basicConfig(filename=f'{log_file}.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+    logging.basicConfig(filename=f'{log_file}.log', encoding='utf-8', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
     X_test, y_test = test_data
     y_pred = model.predict(X_test)
