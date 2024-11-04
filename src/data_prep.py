@@ -33,7 +33,7 @@ def freq_words(text):
     frequent_words = [word for word, freq in word_freq.items() if freq > threshold]
     return ' '.join(frequent_words)
 
-def get_ngrams(data_file, num=5000, ns=[3, 3], test_set_ratio=0.2):
+def get_ngrams(data_file, num, ns, test_set_ratio):
     df = pd.read_csv(data_file, delimiter = ',')
     df['Text'] = df['Text'].apply(process_text)
 
@@ -55,7 +55,7 @@ def get_ngrams(data_file, num=5000, ns=[3, 3], test_set_ratio=0.2):
 
     return train_data, test_data
 
-def get_freq_words(data_file, num=5000, test_set_ratio=0.2):
+def get_freq_words(data_file, num, test_set_ratio):
     df = pd.read_csv(data_file, delimiter = ',')
     df['Text'] = df['Text'].apply(process_text)
     df['Text'] = df['Text'].apply(freq_words)
@@ -75,7 +75,7 @@ def get_freq_words(data_file, num=5000, test_set_ratio=0.2):
 
     return train_data, test_data
 
-def get_wordpiece(data_file, test_set_ratio=0.2):
+def get_wordpiece(data_file, test_set_ratio):
     df = pd.read_csv(data_file, delimiter = ',')
     df['Text'] = df['Text'].apply(process_text)
     tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')

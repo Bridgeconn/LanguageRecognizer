@@ -77,9 +77,7 @@ def preprocess_ebible_data(inputpath, outputpath):
             print(f"Skipping {file_name} due to unknown script.")
             continue
 
-        language_combined = f"{language_name} ({file_name})"
-
-        temp_df = pd.DataFrame({'Text': limited_lines, 'Language': [language_combined] * len(limited_lines)})
+        temp_df = pd.DataFrame({'Text': limited_lines, 'Language': [language_name] * len(limited_lines)})
 
         if script not in script_dataframes:
             script_dataframes[script] = pd.DataFrame(columns=['Text', 'Language'])
