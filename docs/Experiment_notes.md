@@ -2,7 +2,7 @@
 
 1. Run 1
 
-> On vachan_data (12 languages using Devanagari script)
+> On vachan_data (13 languages using Devanagari script)
 > Training data size: 50%, Testing Data Size: 50%
 > Features Used: FeatureExtraction.NGRAMS_3_ALL
 > Algotrithm Used: MNNB
@@ -10,7 +10,7 @@
 > Precision: 0.9992051704984897
 
 2. Run 2
-> On ebible_corpus (12 languages using Arabic script)
+> On ebible_corpus (8 languages using Arabic script)
 > Training data size: 50%, Testing Data Size: 50%
 > Features Used: FeatureExtraction.NGRAMS_3_ALL
 > Algotrithm Used: MNNB
@@ -18,7 +18,7 @@
 > Precision: 0.9984299027665214
 
 3. Run 3
-> On ebible_corpus (12 languages using Bengali script)
+> On ebible_corpus (3 languages using Bengali script)
 > Training data size: 50%, Testing Data Size: 50%
 > Features Used: FeatureExtraction.NGRAMS_3_ALL
 > Algotrithm Used: MNNB
@@ -26,7 +26,7 @@
 > Precision: 0.9970005594515028
 
 4. Run 4
-> On ebible_corpus (12 languages using Coptic script)
+> On ebible_corpus (1 language using Coptic script)
 > Training data size: 50%, Testing Data Size: 50%
 > Features Used: FeatureExtraction.NGRAMS_3_ALL
 > Algotrithm Used: MNNB
@@ -34,7 +34,7 @@
 > Precision: 1.0
 
 5. Run 5
-> On ebible_corpus (12 languages using Cyrillic script)
+> On ebible_corpus (6 languages using Cyrillic script)
 > Training data size: 50%, Testing Data Size: 50%
 > Features Used: FeatureExtraction.NGRAMS_3_ALL
 > Algotrithm Used: MNNB
@@ -42,7 +42,7 @@
 > Precision: 0.9977282062523962
 
 6. Run 6
-> On ebible_corpus (12 languages using Devanagari script)
+> On ebible_corpus (8 languages using Devanagari script)
 > Training data size: 50%, Testing Data Size: 50%
 > Features Used: FeatureExtraction.NGRAMS_3_ALL
 > Algotrithm Used: MNNB
@@ -50,7 +50,7 @@
 > Precision: 0.9860394092991475
 
 7. Run 7
-> On ebible_corpus (12 languages using Ethiopic script)
+> On ebible_corpus (4 languages using Ethiopic script)
 > Training data size: 50%, Testing Data Size: 50%
 > Features Used: FeatureExtraction.NGRAMS_3_ALL
 > Algotrithm Used: MNNB
@@ -58,7 +58,7 @@
 > Precision: 0.9909972377618311
 
 8. Run 8
-> On ebible_corpus (12 languages using Greek script)
+> On ebible_corpus (1 language using Greek script)
 > Training data size: 50%, Testing Data Size: 50%
 > Features Used: FeatureExtraction.NGRAMS_3_ALL
 > Algotrithm Used: MNNB
@@ -66,7 +66,7 @@
 > Precision: 1.0
 
 9. Run 9
-> On ebible_corpus (12 languages using Gujarati script)
+> On ebible_corpus (2 languages using Gujarati script)
 > Training data size: 50%, Testing Data Size: 50%
 > Features Used: FeatureExtraction.NGRAMS_3_ALL
 > Algotrithm Used: MNNB
@@ -74,7 +74,7 @@
 > Precision: 0.9970020722984109
 
 10. Run 10
-> On ebible_corpus (12 languages using Gurmukhi script)
+> On ebible_corpus (2 languages using Gurmukhi script)
 > Training data size: 50%, Testing Data Size: 50%
 > Features Used: FeatureExtraction.NGRAMS_3_ALL
 > Algotrithm Used: MNNB
@@ -82,7 +82,7 @@
 > Precision: 0.999002024291498
 
 11. Run 11
-> On ebible_corpus (12 languages using Han script)
+> On ebible_corpus (1 language using Han script)
 > Training data size: 50%, Testing Data Size: 50%
 > Features Used: FeatureExtraction.NGRAMS_3_ALL
 > Algotrithm Used: MNNB
@@ -90,7 +90,7 @@
 > Precision: 1.0
 
 12. Run 12
-> On ebible_corpus (12 languages using Hebrew script)
+> On ebible_corpus (2 languages using Hebrew script)
 > Training data size: 50%, Testing Data Size: 50%
 > Features Used: FeatureExtraction.NGRAMS_3_ALL
 > Algotrithm Used: MNNB
@@ -98,7 +98,7 @@
 > Precision: 1.0
 
 13. Run 13
-> On ebible_corpus (12 languages using Kannada script)
+> On ebible_corpus (1 language using Kannada script)
 > Training data size: 50%, Testing Data Size: 50%
 > Features Used: FeatureExtraction.NGRAMS_3_ALL
 > Algotrithm Used: MNNB
@@ -106,7 +106,7 @@
 > Precision: 1.0
 
 14. Run 14
-> On ebible_corpus (12 languages using Katakana script)
+> On ebible_corpus (1 language using Katakana script)
 > Training data size: 50%, Testing Data Size: 50%
 > Features Used: FeatureExtraction.NGRAMS_3_ALL
 > Algotrithm Used: MNNB
@@ -114,7 +114,7 @@
 > Precision: 1.0
 
 15. Run 15
-> On ebible_corpus (12 languages using Khmer script)
+> On ebible_corpus (1 language using Khmer script)
 > Training data size: 50%, Testing Data Size: 50%
 > Features Used: FeatureExtraction.NGRAMS_3_ALL
 > Algotrithm Used: MNNB
@@ -122,7 +122,7 @@
 > Precision: 1.0
 
 16. Run 16
-> On ebible_corpus (12 languages using Latin script)
+> On ebible_corpus (801 languages using Latin script)
 > Training data size: 50%, Testing Data Size: 50%
 > Features Used: FeatureExtraction.NGRAMS_3_ALL
 > Algotrithm Used: MNNB
@@ -130,7 +130,7 @@
 > Precision: 0.9728023786320715
 
 17. Run 17
-> On ebible_corpus (12 languages using Limbu script)
+> On ebible_corpus (1 language using Limbu script)
 > Training data size: 50%, Testing Data Size: 50%
 > Features Used: FeatureExtraction.NGRAMS_3_ALL
 > Algotrithm Used: MNNB
@@ -138,7 +138,7 @@
 > Precision: 1.0
 
 18. Run 18
-> On ebible_corpus (12 languages using Malayalam script)
+> On ebible_corpus (2 languages using Malayalam script)
 > Training data size: 50%, Testing Data Size: 50%
 > Features Used: FeatureExtraction.NGRAMS_3_ALL
 > Algotrithm Used: MNNB
@@ -146,7 +146,7 @@
 > Precision: 0.9966998671978751
 
 19. Run 19
-> On ebible_corpus (12 languages using Myanmar script)
+> On ebible_corpus (2 languages using Myanmar script)
 > Training data size: 50%, Testing Data Size: 50%
 > Features Used: FeatureExtraction.NGRAMS_3_ALL
 > Algotrithm Used: MNNB
@@ -154,7 +154,7 @@
 > Precision: 0.999334672021419
 
 20. Run 20
-> On ebible_corpus (12 languages using Oriya script)
+> On ebible_corpus (2 languages using Oriya script)
 > Training data size: 50%, Testing Data Size: 50%
 > Features Used: FeatureExtraction.NGRAMS_3_ALL
 > Algotrithm Used: MNNB
@@ -162,7 +162,7 @@
 > Precision: 1.0
 
 21. Run 21
-> On ebible_corpus (12 languages using Sinhala script)
+> On ebible_corpus (1 language using Sinhala script)
 > Training data size: 50%, Testing Data Size: 50%
 > Features Used: FeatureExtraction.NGRAMS_3_ALL
 > Algotrithm Used: MNNB
@@ -170,7 +170,7 @@
 > Precision: 1.0
 
 22. Run 22
-> On ebible_corpus (12 languages using Syriac script)
+> On ebible_corpus (1 language using Syriac script)
 > Training data size: 50%, Testing Data Size: 50%
 > Features Used: FeatureExtraction.NGRAMS_3_ALL
 > Algotrithm Used: MNNB
@@ -178,7 +178,7 @@
 > Precision: 1.0
 
 23. Run 23
-> On ebible_corpus (12 languages using Tamil script)
+> On ebible_corpus (2 languages using Tamil script)
 > Training data size: 50%, Testing Data Size: 50%
 > Features Used: FeatureExtraction.NGRAMS_3_ALL
 > Algotrithm Used: MNNB
@@ -186,7 +186,7 @@
 > Precision: 1.0
 
 24. Run 24
-> On ebible_corpus (12 languages using Telugu script)
+> On ebible_corpus (2 languages using Telugu script)
 > Training data size: 50%, Testing Data Size: 50%
 > Features Used: FeatureExtraction.NGRAMS_3_ALL
 > Algotrithm Used: MNNB
@@ -194,7 +194,7 @@
 > Precision: 1.0
 
 25. Run 25
-> On ebible_corpus (12 languages using Thai script)
+> On ebible_corpus (2 languages using Thai script)
 > Training data size: 50%, Testing Data Size: 50%
 > Features Used: FeatureExtraction.NGRAMS_3_ALL
 > Algotrithm Used: MNNB
@@ -202,7 +202,7 @@
 > Precision: 1.0
 
 26. Run 26
-> On ebible_corpus (12 languages using Tibetan script)
+> On ebible_corpus (1 language using Tibetan script)
 > Training data size: 50%, Testing Data Size: 50%
 > Features Used: FeatureExtraction.NGRAMS_3_ALL
 > Algotrithm Used: MNNB
@@ -210,7 +210,7 @@
 > Precision: 1.0
 
 27. Run 27
-> On vachan_data (12 languages using Devanagari script)
+> On vachan_data (13 languages using Devanagari script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: MNNB
@@ -218,7 +218,7 @@
 > Precision: 0.9981471459033695
 
 28. Run 28
-> On ebible_corpus (12 languages using Arabic script)
+> On ebible_corpus (8 languages using Arabic script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: MNNB
@@ -226,7 +226,7 @@
 > Precision: 0.9955237473221437
 
 29. Run 29
-> On ebible_corpus (12 languages using Bengali script)
+> On ebible_corpus (3 languages using Bengali script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: MNNB
@@ -234,7 +234,7 @@
 > Precision: 0.9963992483449996
 
 30. Run 30
-> On ebible_corpus (12 languages using Cyrillic script)
+> On ebible_corpus (6 languages using Cyrillic script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: MNNB
@@ -242,7 +242,7 @@
 > Precision: 0.9926132215380424
 
 31. Run 31
-> On ebible_corpus (12 languages using Devanagari script)
+> On ebible_corpus (8 languages using Devanagari script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: MNNB
@@ -250,7 +250,7 @@
 > Precision: 0.9767132040892872
 
 32. Run 32
-> On ebible_corpus (12 languages using Ethiopic script)
+> On ebible_corpus (4 languages using Ethiopic script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: MNNB
@@ -258,7 +258,7 @@
 > Precision: 0.9580471050510454
 
 33. Run 33
-> On ebible_corpus (12 languages using Greek script)
+> On ebible_corpus (1 language using Greek script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: MNNB
@@ -266,7 +266,7 @@
 > Precision: 1.0
 
 34. Run 34
-> On ebible_corpus (12 languages using Gujarati script)
+> On ebible_corpus (2 languages using Gujarati script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: MNNB
@@ -274,7 +274,7 @@
 > Precision: 0.9966764612076503
 
 35. Run 35
-> On ebible_corpus (12 languages using Gurmukhi script)
+> On ebible_corpus (2 languages using Gurmukhi script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: MNNB
@@ -282,7 +282,7 @@
 > Precision: 0.9983339465050856
 
 37. Run 37
-> On ebible_corpus (12 languages using Hebrew script)
+> On ebible_corpus (2 languages using Hebrew script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: MNNB
@@ -290,7 +290,7 @@
 > Precision: 1.0
 
 38. Run 38
-> On ebible_corpus (12 languages using Kannada script)
+> On ebible_corpus (1 language using Kannada script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: MNNB
@@ -298,7 +298,7 @@
 > Precision: 1.0
 
 39. Run 39
-> On ebible_corpus (12 languages using Katakana script)
+> On ebible_corpus (1 language using Katakana script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: MNNB
@@ -306,7 +306,7 @@
 > Precision: 1.0
 
 40. Run 40
-> On ebible_corpus (12 languages using Khmer script)
+> On ebible_corpus (1 language using Khmer script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: MNNB
@@ -314,7 +314,7 @@
 > Precision: 1.0
 
 41. Run 41
-> On ebible_corpus (12 languages using Latin script)
+> On ebible_corpus (801 languages using Latin script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: MNNB
@@ -322,7 +322,7 @@
 > Precision: 0.9734611423800753
 
 42. Run 42
-> On ebible_corpus (12 languages using Limbu script)
+> On ebible_corpus (1 language using Limbu script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: MNNB
@@ -330,7 +330,7 @@
 > Precision: 1.0
 
 43. Run 43
-> On ebible_corpus (12 languages using Malayalam script)
+> On ebible_corpus (2 languages using Malayalam script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: MNNB
@@ -338,7 +338,7 @@
 > Precision: 0.9952539682539683
 
 44. Run 44
-> On ebible_corpus (12 languages using Myanmar script)
+> On ebible_corpus (2 languages using Myanmar script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: MNNB
@@ -346,7 +346,7 @@
 > Precision: 0.9988925925925927
 
 45. Run 45
-> On ebible_corpus (12 languages using Oriya script)
+> On ebible_corpus (2 languages using Oriya script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: MNNB
@@ -354,7 +354,7 @@
 > Precision: 0.9977802304799273
 
 46. Run 46
-> On ebible_corpus (12 languages using Sinhala script)
+> On ebible_corpus (1 language using Sinhala script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: MNNB
@@ -362,7 +362,7 @@
 > Precision: 1.0
 
 47. Run 47
-> On ebible_corpus (12 languages using Syriac script)
+> On ebible_corpus (1 language using Syriac script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: MNNB
@@ -370,7 +370,7 @@
 > Precision: 1.0
 
 48. Run 48
-> On ebible_corpus (12 languages using Tamil script)
+> On ebible_corpus (2 languages using Tamil script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: MNNB
@@ -378,7 +378,7 @@
 > Precision: 0.9994450617283951
 
 49. Run 49
-> On ebible_corpus (12 languages using Telugu script)
+> On ebible_corpus (2 languages using Telugu script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: MNNB
@@ -386,7 +386,7 @@
 > Precision: 0.998333950617284
 
 50. Run 50
-> On ebible_corpus (12 languages using Thai script)
+> On ebible_corpus (2 languages using Thai script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: MNNB
@@ -394,15 +394,7 @@
 > Precision: 1.0
 
 51. Run 51
-> On ebible_corpus (12 languages using Tibetan script)
-> Training data size: 10%, Testing Data Size: 90%
-> Features Used: FeatureExtraction.NGRAMS_3_DIM5000
-> Algotrithm Used: MNNB
-> Accuracy: 1.0
-> Precision: 1.0
-
-52. Run 52
-> On ebible_corpus (12 languages using Tibetan script)
+> On ebible_corpus (1 language using Tibetan script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: MNNB
@@ -411,7 +403,7 @@
 
 53. Run 53
 
-> On vachan_data (12 languages using Devanagari script)
+> On vachan_data (13 languages using Devanagari script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: LOGISTIC_REGRESSION
@@ -419,7 +411,7 @@
 > Precision: 0.9935656656676549
 
 54. Run 54
-> On ebible_corpus (12 languages using Arabic script)
+> On ebible_corpus (8 languages using Arabic script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: LOGISTIC_REGRESSION
@@ -427,7 +419,7 @@
 > Precision: 0.9792546056410202
 
 55. Run 55
-> On ebible_corpus (12 languages using Bengali script)
+> On ebible_corpus (3 languages using Bengali script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: LOGISTIC_REGRESSION
@@ -435,7 +427,7 @@
 > Precision: 0.9903918214154095
 
 56. Run 56
-> On ebible_corpus (12 languages using Cyrillic script)
+> On ebible_corpus (6 languages using Cyrillic script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: LOGISTIC_REGRESSION
@@ -443,7 +435,7 @@
 > Precision: 0.98441025522447
 
 57. Run 57
-> On ebible_corpus (12 languages using Devanagari script)
+> On ebible_corpus (8 languages using Devanagari script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: LOGISTIC_REGRESSION
@@ -451,7 +443,7 @@
 > Precision: 0.9537231074526766
 
 58. Run 58
-> On ebible_corpus (12 languages using Ethiopic script)
+> On ebible_corpus (4 languages using Ethiopic script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: LOGISTIC_REGRESSION
@@ -459,7 +451,7 @@
 > Precision: 0.9455939773478836
 
 59. Run 59
-> On ebible_corpus (12 languages using Gujarati script)
+> On ebible_corpus (2 languages using Gujarati script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: LOGISTIC_REGRESSION
@@ -467,7 +459,7 @@
 > Precision: 0.9939040953260474
 
 60. Run 60
-> On ebible_corpus (12 languages using Gurmukhi script)
+> On ebible_corpus (2 languages using Gurmukhi script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: LOGISTIC_REGRESSION
@@ -475,7 +467,7 @@
 > Precision: 0.9983388765705838
 
 61. Run 61
-> On ebible_corpus (12 languages using Hebrew script)
+> On ebible_corpus (2 languages using Hebrew script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: LOGISTIC_REGRESSION
@@ -483,7 +475,7 @@
 > Precision: 0.997427482792527
 
 62. Run 62
-> On ebible_corpus (12 languages using Malayalam script)
+> On ebible_corpus (2 languages using Malayalam script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: LOGISTIC_REGRESSION
@@ -491,7 +483,7 @@
 > Precision: 0.9956142280894755
 
 63. Run 63
-> On ebible_corpus (12 languages using Myanmar script)
+> On ebible_corpus (2 languages using Myanmar script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: LOGISTIC_REGRESSION
@@ -499,7 +491,7 @@
 > Precision: 0.9952539682539683
 
 64. Run 64
-> On ebible_corpus (12 languages using Oriya script)
+> On ebible_corpus (2 languages using Oriya script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: LOGISTIC_REGRESSION
@@ -507,7 +499,7 @@
 > Precision: 0.986486081113511
 
 65. Run 65
-> On ebible_corpus (12 languages using Tamil script)
+> On ebible_corpus (2 languages using Tamil script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: LOGISTIC_REGRESSION
@@ -515,7 +507,7 @@
 > Precision: 0.9934211489206001
 
 66. Run 66
-> On ebible_corpus (12 languages using Telugu script)
+> On ebible_corpus (2 languages using Telugu script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: LOGISTIC_REGRESSION
@@ -523,7 +515,7 @@
 > Precision: 0.9907308345463367
 
 67. Run 67
-> On ebible_corpus (12 languages using Thai script)
+> On ebible_corpus (2 languages using Thai script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: LOGISTIC_REGRESSION
@@ -532,7 +524,7 @@
 
 68. Run 68
 
-> On vachan_data (12 languages using Devanagari script)
+> On vachan_data (13 languages using Devanagari script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: DECISION_TREE
@@ -541,7 +533,7 @@
 
 69. Run 69
 
-> On ebible_corpus (12 languages using Arabic script)
+> On ebible_corpus (8 languages using Arabic script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: DECISION_TREE
@@ -550,7 +542,7 @@
 
 70. Run 70
 
-> On ebible_corpus (12 languages using Bengali script)
+> On ebible_corpus (3 languages using Bengali script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: DECISION_TREE
@@ -559,7 +551,7 @@
 
 71. Run 71
 
-> On ebible_corpus (12 languages using Coptic script)
+> On ebible_corpus (1 language using Coptic script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: DECISION_TREE
@@ -568,7 +560,7 @@
 
 72. Run 72
 
-> On ebible_corpus (12 languages using Cyrillic script)
+> On ebible_corpus (6 languages using Cyrillic script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: DECISION_TREE
@@ -577,7 +569,7 @@
 
 73. Run 73
 
-> On ebible_corpus (12 languages using Devanagari script)
+> On ebible_corpus (8 languages using Devanagari script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: DECISION_TREE
@@ -586,7 +578,7 @@
 
 74. Run 74
 
-> On ebible_corpus (12 languages using Ethiopic script)
+> On ebible_corpus (4 languages using Ethiopic script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: DECISION_TREE
@@ -595,7 +587,7 @@
 
 75. Run 75
 
-> On ebible_corpus (12 languages using Greek script)
+> On ebible_corpus (1 language using Greek script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: DECISION_TREE
@@ -604,7 +596,7 @@
 
 76. Run 76
 
-> On ebible_corpus (12 languages using Gujarati script)
+> On ebible_corpus (2 languages using Gujarati script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: DECISION_TREE
@@ -613,7 +605,7 @@
 
 77. Run 77
 
-> On ebible_corpus (12 languages using Gurmukhi script)
+> On ebible_corpus (2 languages using Gurmukhi script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: DECISION_TREE
@@ -622,7 +614,7 @@
 
 78. Run 78
 
-> On ebible_corpus (12 languages using Han script)
+> On ebible_corpus (1 language using Han script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: DECISION_TREE
@@ -631,7 +623,7 @@
 
 79. Run 79
 
-> On ebible_corpus (12 languages using Hebrew script)
+> On ebible_corpus (2 languages using Hebrew script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: DECISION_TREE
@@ -640,7 +632,7 @@
 
 80. Run 80
 
-> On ebible_corpus (12 languages using Kannada script)
+> On ebible_corpus (1 language using Kannada script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: DECISION_TREE
@@ -649,7 +641,7 @@
 
 81. Run 81
 
-> On ebible_corpus (12 languages using Katakana script)
+> On ebible_corpus (1 language using Katakana script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: DECISION_TREE
@@ -658,7 +650,7 @@
 
 82. Run 82
 
-> On ebible_corpus (12 languages using Khmer script)
+> On ebible_corpus (1 language using Khmer script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: DECISION_TREE
@@ -667,7 +659,7 @@
 
 83. Run 83
 
-> On ebible_corpus (12 languages using Latin script)
+> On ebible_corpus (801 languages using Latin script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: DECISION_TREE
@@ -676,7 +668,7 @@
 
 84. Run 84
 
-> On ebible_corpus (12 languages using Limbu script)
+> On ebible_corpus (1 language using Limbu script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: DECISION_TREE
@@ -685,7 +677,7 @@
 
 85. Run 85
 
-> On ebible_corpus (12 languages using Malayalam script)
+> On ebible_corpus (2 languages using Malayalam script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: DECISION_TREE
@@ -694,7 +686,7 @@
 
 86. Run 86
 
-> On ebible_corpus (12 languages using Myanmar script)
+> On ebible_corpus (2 languages using Myanmar script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: DECISION_TREE
@@ -703,7 +695,7 @@
 
 87. Run 87
 
-> On ebible_corpus (12 languages using Oriya script)
+> On ebible_corpus (2 languages using Oriya script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: DECISION_TREE
@@ -712,7 +704,7 @@
 
 88. Run 88
 
-> On ebible_corpus (12 languages using Sinhala script)
+> On ebible_corpus (1 language using Sinhala script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: DECISION_TREE
@@ -721,7 +713,7 @@
 
 89. Run 89
 
-> On ebible_corpus (12 languages using Syriac script)
+> On ebible_corpus (1 language using Syriac script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: DECISION_TREE
@@ -730,7 +722,7 @@
 
 90. Run 90
 
-> On ebible_corpus (12 languages using Tamil script)
+> On ebible_corpus (2 languages using Tamil script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: DECISION_TREE
@@ -739,7 +731,7 @@
 
 91. Run 91
 
-> On ebible_corpus (12 languages using Telugu script)
+> On ebible_corpus (2 languages using Telugu script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: DECISION_TREE
@@ -748,7 +740,7 @@
 
 92. Run 92
 
-> On ebible_corpus (12 languages using Thai script)
+> On ebible_corpus (2 languages using Thai script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: DECISION_TREE
@@ -757,7 +749,7 @@
 
 93. Run 93
 
-> On ebible_corpus (12 languages using Tibetan script)
+> On ebible_corpus (1 language using Tibetan script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: DECISION_TREE
@@ -766,7 +758,7 @@
 
 94. Run 94
 
-> On vachan_data (12 languages using Devanagari script)
+> On vachan_data (13 languages using Devanagari script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: SVM
@@ -775,7 +767,7 @@
 
 95. Run 95
 
-> On ebible_corpus (12 languages using Arabic script)
+> On ebible_corpus (8 languages using Arabic script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: SVM
@@ -784,7 +776,7 @@
 
 96. Run 96
 
-> On ebible_corpus (12 languages using Bengali script)
+> On ebible_corpus (3 languages using Bengali script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: SVM
@@ -793,7 +785,7 @@
 
 97. Run 97
 
-> On ebible_corpus (12 languages using Cyrillic script)
+> On ebible_corpus (6 languages using Cyrillic script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: SVM
@@ -802,7 +794,7 @@
 
 98. Run 98
 
-> On ebible_corpus (12 languages using Devanagari script)
+> On ebible_corpus (8 languages using Devanagari script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: SVM
@@ -811,7 +803,7 @@
 
 99. Run 99
 
-> On ebible_corpus (12 languages using Ethiopic script)
+> On ebible_corpus (4 languages using Ethiopic script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: SVM
@@ -820,7 +812,7 @@
 
 100. Run 100
 
-> On ebible_corpus (12 languages using Gujarati script)
+> On ebible_corpus (2 languages using Gujarati script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: SVM
@@ -829,7 +821,7 @@
 
 101. Run 101
 
-> On ebible_corpus (12 languages using Gurmukhi script)
+> On ebible_corpus (2 languages using Gurmukhi script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: SVM
@@ -838,7 +830,7 @@
 
 102. Run 102
 
-> On ebible_corpus (12 languages using Hebrew script)
+> On ebible_corpus (2 languages using Hebrew script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: SVM
@@ -847,7 +839,7 @@
 
 103. Run 103
 
-> On ebible_corpus (12 languages using Malayalam script)
+> On ebible_corpus (2 languages using Malayalam script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: SVM
@@ -856,7 +848,7 @@
 
 104. Run 104
 
-> On ebible_corpus (12 languages using Myanmar script)
+> On ebible_corpus (2 languages using Myanmar script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: SVM
@@ -865,7 +857,7 @@
 
 105. Run 105
 
-> On ebible_corpus (12 languages using Oriya script)
+> On ebible_corpus (2 languages using Oriya script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: SVM
@@ -874,7 +866,7 @@
 
 106. Run 106
 
-> On ebible_corpus (12 languages using Tamil script)
+> On ebible_corpus (2 languages using Tamil script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: SVM
@@ -883,7 +875,7 @@
 
 107. Run 107
 
-> On ebible_corpus (12 languages using Telugu script)
+> On ebible_corpus (2 languages using Telugu script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: SVM
@@ -892,7 +884,7 @@
 
 108. Run 108
 
-> On ebible_corpus (12 languages using Thai script)
+> On ebible_corpus (2 languages using Thai script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_DIM5000
 > Algotrithm Used: SVM
@@ -901,7 +893,7 @@
 
 109. Run 109
 
-> On vachan_data (12 languages using Devanagari script)
+> On vachan_data (13 languages using Devanagari script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.FREQ_WORD_DIM2000
 > Algotrithm Used: MNNB
@@ -910,7 +902,7 @@
 
 110. Run 110
 
-> On ebible_corpus (12 languages using Arabic script)
+> On ebible_corpus (8 languages using Arabic script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.FREQ_WORD_DIM2000
 > Algotrithm Used: MNNB
@@ -919,7 +911,7 @@
 
 111. Run 111
 
-> On ebible_corpus (12 languages using Bengali script)
+> On ebible_corpus (3 languages using Bengali script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.FREQ_WORD_DIM2000
 > Algotrithm Used: MNNB
@@ -928,7 +920,7 @@
 
 112. Run 112
 
-> On ebible_corpus (12 languages using Cyrillic script)
+> On ebible_corpus (6 languages using Cyrillic script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.FREQ_WORD_DIM2000
 > Algotrithm Used: MNNB
@@ -937,7 +929,7 @@
 
 113. Run 113
 
-> On ebible_corpus (12 languages using Devanagari script)
+> On ebible_corpus (8 languages using Devanagari script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.FREQ_WORD_DIM2000
 > Algotrithm Used: MNNB
@@ -946,7 +938,7 @@
 
 114. Run 114
 
-> On ebible_corpus (12 languages using Ethiopic script)
+> On ebible_corpus (4 languages using Ethiopic script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.FREQ_WORD_DIM2000
 > Algotrithm Used: MNNB
@@ -955,7 +947,7 @@
 
 115. Run 115
 
-> On ebible_corpus (12 languages using Gujarati script)
+> On ebible_corpus (2 languages using Gujarati script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.FREQ_WORD_DIM2000
 > Algotrithm Used: MNNB
@@ -964,7 +956,7 @@
 
 116. Run 116
 
-> On ebible_corpus (12 languages using Gurmukhi script)
+> On ebible_corpus (2 languages using Gurmukhi script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.FREQ_WORD_DIM2000
 > Algotrithm Used: MNNB
@@ -973,7 +965,7 @@
 
 117. Run 117
 
-> On ebible_corpus (12 languages using Hebrew script)
+> On ebible_corpus (2 languages using Hebrew script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.FREQ_WORD_DIM2000
 > Algotrithm Used: MNNB
@@ -982,7 +974,7 @@
 
 118. Run 118
 
-> On ebible_corpus (12 languages using Malayalam script)
+> On ebible_corpus (2 languages using Malayalam script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.FREQ_WORD_DIM2000
 > Algotrithm Used: MNNB
@@ -991,7 +983,7 @@
 
 119. Run 119
 
-> On ebible_corpus (12 languages using Myanmar script)
+> On ebible_corpus (2 languages using Myanmar script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.FREQ_WORD_DIM2000
 > Algotrithm Used: MNNB
@@ -1000,7 +992,7 @@
 
 120. Run 120
 
-> On ebible_corpus (12 languages using Oriya script)
+> On ebible_corpus (2 languages using Oriya script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.FREQ_WORD_DIM2000
 > Algotrithm Used: MNNB
@@ -1009,7 +1001,7 @@
 
 121. Run 121
 
-> On ebible_corpus (12 languages using Tamil script)
+> On ebible_corpus (2 languages using Tamil script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.FREQ_WORD_DIM2000
 > Algotrithm Used: MNNB
@@ -1018,7 +1010,7 @@
 
 122. Run 122
 
-> On ebible_corpus (12 languages using Telugu script)
+> On ebible_corpus (2 languages using Telugu script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.FREQ_WORD_DIM2000
 > Algotrithm Used: MNNB
@@ -1027,7 +1019,7 @@
 
 123. Run 123
 
-> On ebible_corpus (12 languages using Thai script)
+> On ebible_corpus (2 languages using Thai script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.FREQ_WORD_DIM2000
 > Algotrithm Used: MNNB
@@ -1036,7 +1028,7 @@
 
 124. Run 124
 
-> On vachan_data (12 languages using Devanagari script)
+> On vachan_data (13 languages using Devanagari script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.FREQ_WORD_DIM5000
 > Algotrithm Used: MNNB
@@ -1045,7 +1037,7 @@
 
 125. Run 125
 
-> On ebible_corpus (12 languages using Arabic script)
+> On ebible_corpus (8 languages using Arabic script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.FREQ_WORD_DIM5000
 > Algotrithm Used: MNNB
@@ -1054,7 +1046,7 @@
 
 126. Run 126
 
-> On ebible_corpus (12 languages using Bengali script)
+> On ebible_corpus (3 languages using Bengali script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.FREQ_WORD_DIM5000
 > Algotrithm Used: MNNB
@@ -1063,7 +1055,7 @@
 
 127. Run 127
 
-> On ebible_corpus (12 languages using Cyrillic script)
+> On ebible_corpus (6 languages using Cyrillic script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.FREQ_WORD_DIM5000
 > Algotrithm Used: MNNB
@@ -1072,7 +1064,7 @@
 
 128. Run 128
 
-> On ebible_corpus (12 languages using Devanagari script)
+> On ebible_corpus (8 languages using Devanagari script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.FREQ_WORD_DIM5000
 > Algotrithm Used: MNNB
@@ -1081,7 +1073,7 @@
 
 129. Run 129
 
-> On ebible_corpus (12 languages using Ethiopic script)
+> On ebible_corpus (4 languages using Ethiopic script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.FREQ_WORD_DIM5000
 > Algotrithm Used: MNNB
@@ -1090,7 +1082,7 @@
 
 130. Run 130
 
-> On ebible_corpus (12 languages using Gujarati script)
+> On ebible_corpus (2 languages using Gujarati script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.FREQ_WORD_DIM5000
 > Algotrithm Used: MNNB
@@ -1099,7 +1091,7 @@
 
 131. Run 131
 
-> On ebible_corpus (12 languages using Gurmukhi script)
+> On ebible_corpus (2 languages using Gurmukhi script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.FREQ_WORD_DIM5000
 > Algotrithm Used: MNNB
@@ -1108,7 +1100,7 @@
 
 132. Run 132
 
-> On ebible_corpus (12 languages using Hebrew script)
+> On ebible_corpus (2 languages using Hebrew script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.FREQ_WORD_DIM5000
 > Algotrithm Used: MNNB
@@ -1117,7 +1109,7 @@
 
 133. Run 133
 
-> On ebible_corpus (12 languages using Malayalam script)
+> On ebible_corpus (2 languages using Malayalam script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.FREQ_WORD_DIM5000
 > Algotrithm Used: MNNB
@@ -1126,7 +1118,7 @@
 
 134. Run 134
 
-> On ebible_corpus (12 languages using Myanmar script)
+> On ebible_corpus (2 languages using Myanmar script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.FREQ_WORD_DIM5000
 > Algotrithm Used: MNNB
@@ -1135,7 +1127,7 @@
 
 135. Run 135
 
-> On ebible_corpus (12 languages using Oriya script)
+> On ebible_corpus (2 languages using Oriya script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.FREQ_WORD_DIM5000
 > Algotrithm Used: MNNB
@@ -1144,7 +1136,7 @@
 
 136. Run 136
 
-> On ebible_corpus (12 languages using Tamil script)
+> On ebible_corpus (2 languages using Tamil script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.FREQ_WORD_DIM5000
 > Algotrithm Used: MNNB
@@ -1153,7 +1145,7 @@
 
 137. Run 137
 
-> On ebible_corpus (12 languages using Telugu script)
+> On ebible_corpus (2 languages using Telugu script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.FREQ_WORD_DIM5000
 > Algotrithm Used: MNNB
@@ -1162,7 +1154,7 @@
 
 138. Run 138
 
-> On ebible_corpus (12 languages using Thai script)
+> On ebible_corpus (2 languages using Thai script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.FREQ_WORD_DIM5000
 > Algotrithm Used: MNNB
@@ -1171,7 +1163,7 @@
 
 139. Run 139
 
-> On vachan_data (12 languages using Devanagari script)
+> On vachan_data (13 languages using Devanagari script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_2000
 > Algotrithm Used: MNNB
@@ -1180,7 +1172,7 @@
 
 140. Run 140
 
-> On ebible_corpus (12 languages using Arabic script)
+> On ebible_corpus (8 languages using Arabic script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_2000
 > Algotrithm Used: MNNB
@@ -1189,7 +1181,7 @@
 
 141. Run 141
 
-> On ebible_corpus (12 languages using Bengali script)
+> On ebible_corpus (3 languages using Bengali script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_2000
 > Algotrithm Used: MNNB
@@ -1198,7 +1190,7 @@
 
 142. Run 142
 
-> On ebible_corpus (12 languages using Cyrillic script)
+> On ebible_corpus (6 languages using Cyrillic script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_2000
 > Algotrithm Used: MNNB
@@ -1207,7 +1199,7 @@
 
 143. Run 143
 
-> On ebible_corpus (12 languages using Devanagari script)
+> On ebible_corpus (8 languages using Devanagari script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_2000
 > Algotrithm Used: MNNB
@@ -1216,7 +1208,7 @@
 
 144. Run 144
 
-> On ebible_corpus (12 languages using Ethiopic script)
+> On ebible_corpus (4 languages using Ethiopic script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_2000
 > Algotrithm Used: MNNB
@@ -1225,7 +1217,7 @@
 
 145. Run 145
 
-> On ebible_corpus (12 languages using Gujarati script)
+> On ebible_corpus (2 languages using Gujarati script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_2000
 > Algotrithm Used: MNNB
@@ -1234,7 +1226,7 @@
 
 146. Run 146
 
-> On ebible_corpus (12 languages using Gurmukhi script)
+> On ebible_corpus (2 languages using Gurmukhi script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_2000
 > Algotrithm Used: MNNB
@@ -1243,7 +1235,7 @@
 
 147. Run 147
 
-> On ebible_corpus (12 languages using Hebrew script)
+> On ebible_corpus (2 languages using Hebrew script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_2000
 > Algotrithm Used: MNNB
@@ -1252,7 +1244,7 @@
 
 148. Run 148
 
-> On ebible_corpus (12 languages using Malayalam script)
+> On ebible_corpus (2 languages using Malayalam script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_2000
 > Algotrithm Used: MNNB
@@ -1261,7 +1253,7 @@
 
 149. Run 149
 
-> On ebible_corpus (12 languages using Myanmar script)
+> On ebible_corpus (2 languages using Myanmar script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_2000
 > Algotrithm Used: MNNB
@@ -1270,7 +1262,7 @@
 
 150. Run 150
 
-> On ebible_corpus (12 languages using Oriya script)
+> On ebible_corpus (2 languages using Oriya script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_2000
 > Algotrithm Used: MNNB
@@ -1279,7 +1271,7 @@
 
 151. Run 151
 
-> On ebible_corpus (12 languages using Tamil script)
+> On ebible_corpus (2 languages using Tamil script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_2000
 > Algotrithm Used: MNNB
@@ -1288,7 +1280,7 @@
 
 152. Run 152
 
-> On ebible_corpus (12 languages using Telugu script)
+> On ebible_corpus (2 languages using Telugu script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_2000
 > Algotrithm Used: MNNB
@@ -1297,7 +1289,7 @@
 
 153. Run 153
 
-> On ebible_corpus (12 languages using Thai script)
+> On ebible_corpus (2 languages using Thai script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_3_2000
 > Algotrithm Used: MNNB
@@ -1306,7 +1298,7 @@
 
 154. Run 154
 
-> On vachan_data (12 languages using Devanagari script)
+> On vachan_data (13 languages using Devanagari script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_2_3_2000
 > Algotrithm Used: MNNB
@@ -1315,7 +1307,7 @@
 
 155. Run 155
 
-> On ebible_corpus (12 languages using Arabic script)
+> On ebible_corpus (8 languages using Arabic script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_2_3_2000
 > Algotrithm Used: MNNB
@@ -1324,7 +1316,7 @@
 
 156. Run 156
 
-> On ebible_corpus (12 languages using Bengali script)
+> On ebible_corpus (3 languages using Bengali script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_2_3_2000
 > Algotrithm Used: MNNB
@@ -1333,7 +1325,7 @@
 
 157. Run 157
 
-> On ebible_corpus (12 languages using Cyrillic script)
+> On ebible_corpus (6 languages using Cyrillic script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_2_3_2000
 > Algotrithm Used: MNNB
@@ -1342,7 +1334,7 @@
 
 158. Run 158
 
-> On ebible_corpus (12 languages using Devanagari script)
+> On ebible_corpus (8 languages using Devanagari script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_2_3_2000
 > Algotrithm Used: MNNB
@@ -1351,7 +1343,7 @@
 
 159. Run 159
 
-> On ebible_corpus (12 languages using Ethiopic script)
+> On ebible_corpus (4 languages using Ethiopic script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_2_3_2000
 > Algotrithm Used: MNNB
@@ -1360,7 +1352,7 @@
 
 160. Run 160
 
-> On ebible_corpus (12 languages using Gujarati script)
+> On ebible_corpus (2 languages using Gujarati script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_2_3_2000
 > Algotrithm Used: MNNB
@@ -1369,7 +1361,7 @@
 
 161. Run 161
 
-> On ebible_corpus (12 languages using Gurmukhi script)
+> On ebible_corpus (2 languages using Gurmukhi script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_2_3_2000
 > Algotrithm Used: MNNB
@@ -1378,7 +1370,7 @@
 
 162. Run 162
 
-> On ebible_corpus (12 languages using Hebrew script)
+> On ebible_corpus (2 languages using Hebrew script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_2_3_2000
 > Algotrithm Used: MNNB
@@ -1387,7 +1379,7 @@
 
 163. Run 163
 
-> On ebible_corpus (12 languages using Malayalam script)
+> On ebible_corpus (2 languages using Malayalam script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_2_3_2000
 > Algotrithm Used: MNNB
@@ -1396,7 +1388,7 @@
 
 164. Run 164
 
-> On ebible_corpus (12 languages using Myanmar script)
+> On ebible_corpus (2 languages using Myanmar script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_2_3_2000
 > Algotrithm Used: MNNB
@@ -1405,7 +1397,7 @@
 
 165. Run 165
 
-> On ebible_corpus (12 languages using Oriya script)
+> On ebible_corpus (2 languages using Oriya script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_2_3_2000
 > Algotrithm Used: MNNB
@@ -1414,7 +1406,7 @@
 
 166. Run 166
 
-> On ebible_corpus (12 languages using Tamil script)
+> On ebible_corpus (2 languages using Tamil script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_2_3_2000
 > Algotrithm Used: MNNB
@@ -1423,7 +1415,7 @@
 
 167. Run 167
 
-> On ebible_corpus (12 languages using Telugu script)
+> On ebible_corpus (2 languages using Telugu script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_2_3_2000
 > Algotrithm Used: MNNB
@@ -1432,7 +1424,7 @@
 
 168. Run 168
 
-> On ebible_corpus (12 languages using Thai script)
+> On ebible_corpus (2 languages using Thai script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_2_3_2000
 > Algotrithm Used: MNNB
@@ -1441,7 +1433,7 @@
 
 169. Run 169
 
-> On vachan_data (12 languages using Devanagari script)
+> On vachan_data (13 languages using Devanagari script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_2_3_4_2000
 > Algotrithm Used: MNNB
@@ -1450,7 +1442,7 @@
 
 170. Run 170
 
-> On ebible_corpus (12 languages using Arabic script)
+> On ebible_corpus (8 languages using Arabic script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_2_3_4_2000
 > Algotrithm Used: MNNB
@@ -1459,7 +1451,7 @@
 
 171. Run 171
 
-> On ebible_corpus (12 languages using Bengali script)
+> On ebible_corpus (3 languages using Bengali script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_2_3_4_2000
 > Algotrithm Used: MNNB
@@ -1468,7 +1460,7 @@
 
 173. Run 173
 
-> On ebible_corpus (12 languages using Devanagari script)
+> On ebible_corpus (8 languages using Devanagari script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_2_3_4_2000
 > Algotrithm Used: MNNB
@@ -1477,7 +1469,7 @@
 
 174. Run 174
 
-> On ebible_corpus (12 languages using Ethiopic script)
+> On ebible_corpus (4 languages using Ethiopic script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_2_3_4_2000
 > Algotrithm Used: MNNB
@@ -1486,7 +1478,7 @@
 
 175. Run 175
 
-> On ebible_corpus (12 languages using Gujarati script)
+> On ebible_corpus (2 languages using Gujarati script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_2_3_4_2000
 > Algotrithm Used: MNNB
@@ -1495,7 +1487,7 @@
 
 176. Run 176
 
-> On ebible_corpus (12 languages using Gurmukhi script)
+> On ebible_corpus (2 languages using Gurmukhi script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_2_3_4_2000
 > Algotrithm Used: MNNB
@@ -1504,7 +1496,7 @@
 
 177. Run 177
 
-> On ebible_corpus (12 languages using Hebrew script)
+> On ebible_corpus (2 languages using Hebrew script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_2_3_4_2000
 > Algotrithm Used: MNNB
@@ -1513,7 +1505,7 @@
 
 178. Run 178
 
-> On ebible_corpus (12 languages using Malayalam script)
+> On ebible_corpus (2 languages using Malayalam script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_2_3_4_2000
 > Algotrithm Used: MNNB
@@ -1522,7 +1514,7 @@
 
 179. Run 179
 
-> On ebible_corpus (12 languages using Myanmar script)
+> On ebible_corpus (2 languages using Myanmar script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_2_3_4_2000
 > Algotrithm Used: MNNB
@@ -1531,7 +1523,7 @@
 
 180. Run 180
 
-> On ebible_corpus (12 languages using Oriya script)
+> On ebible_corpus (2 languages using Oriya script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_2_3_4_2000
 > Algotrithm Used: MNNB
@@ -1540,7 +1532,7 @@
 
 181. Run 181
 
-> On ebible_corpus (12 languages using Tamil script)
+> On ebible_corpus (2 languages using Tamil script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_2_3_4_2000
 > Algotrithm Used: MNNB
@@ -1549,7 +1541,7 @@
 
 182. Run 182
 
-> On ebible_corpus (12 languages using Telugu script)
+> On ebible_corpus (2 languages using Telugu script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_2_3_4_2000
 > Algotrithm Used: MNNB
@@ -1558,7 +1550,7 @@
 
 183. Run 183
 
-> On ebible_corpus (12 languages using Thai script)
+> On ebible_corpus (2 languages using Thai script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_2_3_4_2000
 > Algotrithm Used: MNNB
@@ -1567,7 +1559,7 @@
 
 184. Run 184
 
-> On ebible_corpus (12 languages using Cyrillic script)
+> On ebible_corpus (6 languages using Cyrillic script)
 > Training data size: 10%, Testing Data Size: 90%
 > Features Used: FeatureExtraction.NGRAMS_2_3_4_2000
 > Algotrithm Used: MNNB
