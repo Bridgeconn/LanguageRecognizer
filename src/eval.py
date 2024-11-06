@@ -9,9 +9,9 @@ def run_eval(model, test_data, log_file):
     y_pred = model.predict(X_test)
 
     accuracy = metrics.accuracy_score(y_test, y_pred)
-    precision = metrics.precision_score(y_test, y_pred, average='weighted')
-    recall = metrics.recall_score(y_test, y_pred, average='weighted')
-    f1_score = metrics.f1_score(y_test, y_pred, average='weighted')
+    precision = metrics.precision_score(y_test, y_pred, average='weighted', zero_division=1)
+    recall = metrics.recall_score(y_test, y_pred, average='weighted', zero_division=1)
+    f1_score = metrics.f1_score(y_test, y_pred, average='weighted', zero_division=1)
     confusion_matrix = metrics.confusion_matrix(y_test, y_pred)
 
     logging.info(f"Accuracy: {accuracy}")

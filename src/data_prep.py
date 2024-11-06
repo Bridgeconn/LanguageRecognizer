@@ -14,24 +14,26 @@ from transformers import BertTokenizer
 def process_text(text):
     try:
         script_name = detect_script(text)
-        text = regex.sub(fr'[^\p{{{script_name}}}]', '', text)
+        text = regex.sub(fr'[^\w\s\p{{{script_name}}}]', ' ', text)
+        text = regex.sub(fr'\s+', ' ', text)
     except Exception as e:
         print(f"Error processing text: {e}")
 
     return text
 
-def freq_words(text):
-    try:
-        script_name = detect_script(text)
-        words = regex.findall(fr'\p{{{script_name}}}+', text)
-    except Exception:
-        raise KeyError(f"Script {script_name} not recognized")
-
+def freq_words(df, script_name):
+    all_text = ' '.join(df['Text'])
+    words = regex.findall(fr'\p{{{script_name}}}+', all_text)
     word_freq = Counter(words)
+    threshold = 50
+    frequent_words = {word for word, freq in word_freq.items() if freq > threshold}
+    return frequent_words
 
-    threshold = 100
-    frequent_words = [word for word, freq in word_freq.items() if freq > threshold]
-    return ' '.join(frequent_words)
+def retain_freq_words(text, script_name, frequent_words):
+    words_in_text = regex.findall(fr'\p{{{script_name}}}+', text)
+    filtered_words = [word for word in words_in_text if word in frequent_words]
+
+    return ' '.join(filtered_words)
 
 def get_ngrams(data_file, num, ns, test_set_ratio):
     df = pd.read_csv(data_file, delimiter = ',')
@@ -58,7 +60,12 @@ def get_ngrams(data_file, num, ns, test_set_ratio):
 def get_freq_words(data_file, num, test_set_ratio):
     df = pd.read_csv(data_file, delimiter = ',')
     df['Text'] = df['Text'].apply(process_text)
-    df['Text'] = df['Text'].apply(freq_words)
+
+    script_name = detect_script(' '.join(df['Text']))
+
+    frequent_words = freq_words(df, script_name) 
+
+    df['Text'] = df['Text'].apply(lambda text: retain_freq_words(text, script_name, frequent_words))
 
     X = df['Text']
     y = df['Language']
