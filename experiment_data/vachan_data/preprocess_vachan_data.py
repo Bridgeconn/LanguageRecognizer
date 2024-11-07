@@ -16,6 +16,7 @@ def preprocess_vachan_data(inputpath, outputpath):
         language_name = language_name.replace('_', ' ')
 
         df = pd.read_csv(file_path, header=None)
+        df = df.iloc[:1000]
         text_column = df.iloc[:, 3]
 
         temp_df = pd.DataFrame({'Text': text_column, 'Language': language_name})
