@@ -9,7 +9,7 @@ from collections import Counter
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer
 from script_detector import detect_script
-from transformers import BertTokenizer
+# from transformers import BertTokenizer
 
 def process_text(text):
     try:
@@ -55,7 +55,7 @@ def get_ngrams(data_file, num, ns, test_set_ratio):
     train_data = (X_train_count, y_train)
     test_data = (X_test_count, y_test)
 
-    return train_data, test_data
+    return (train_data, test_data, count_vectorizer)
 
 def get_freq_words(data_file, num, test_set_ratio):
     df = pd.read_csv(data_file, delimiter = ',')
@@ -80,25 +80,25 @@ def get_freq_words(data_file, num, test_set_ratio):
     train_data = (X_train_count, y_train)
     test_data = (X_test_count, y_test)
 
-    return train_data, test_data
+    return (train_data, test_data, count_vectorizer)
 
-def get_wordpiece(data_file, test_set_ratio):
-    df = pd.read_csv(data_file, delimiter = ',')
-    df['Text'] = df['Text'].apply(process_text)
-    tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-    df['Text'] = df['Text'].apply(lambda text: ' '.join(tokenizer.tokenize(text)))
+# def get_wordpiece(data_file, test_set_ratio):
+#     df = pd.read_csv(data_file, delimiter = ',')
+#     df['Text'] = df['Text'].apply(process_text)
+#     tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+#     df['Text'] = df['Text'].apply(lambda text: ' '.join(tokenizer.tokenize(text)))
 
-    X = df['Text']
-    y = df['Language']
+#     X = df['Text']
+#     y = df['Language']
 
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_set_ratio, random_state=42)
+#     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_set_ratio, random_state=42)
 
-    count_vectorizer = CountVectorizer()
+#     count_vectorizer = CountVectorizer()
 
-    X_train_count = count_vectorizer.fit_transform(X_train)
-    X_test_count = count_vectorizer.transform(X_test)
+#     X_train_count = count_vectorizer.fit_transform(X_train)
+#     X_test_count = count_vectorizer.transform(X_test)
 
-    train_data = (X_train_count, y_train)
-    test_data = (X_test_count, y_test)
+#     train_data = (X_train_count, y_train)
+#     test_data = (X_test_count, y_test)
 
-    return train_data, test_data
+#     return (train_data, test_data, count_vectorizer)
