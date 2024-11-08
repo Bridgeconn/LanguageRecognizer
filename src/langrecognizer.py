@@ -1,7 +1,6 @@
 '''Take input text and output its language and script'''
 from sklearn.feature_extraction.text import CountVectorizer
 from script_detector import detect_script
-import numpy as np
 import joblib
 import regex
 
