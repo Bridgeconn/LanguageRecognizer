@@ -1,9 +1,6 @@
 '''Take input text and output its language and script'''
-from sklearn.feature_extraction.text import CountVectorizer
 from script_detector import detect_script
-import numpy as np
 import joblib
-import regex
 
 def recognize_language(text):
     '''
@@ -22,6 +19,6 @@ def recognize_language(text):
     except FileNotFoundError as fnf_error:
         print(f"Error: Language model not available for the script {script_name}")
 
-# if __name__ == "__main__":
-#     text = "यहोवा का भय मानना, जीवन का सोता है, और उसके द्वारा लोग मृत्यु के फंदों से बच जाते हैं।"
-#     print(recognize_language(text))
+if __name__ == "__main__":
+    text = "यहोवा का भय मानना, जीवन का सोता है, और उसके द्वारा लोग मृत्यु के फंदों से बच जाते हैं।"
+    print(recognize_language(text))
