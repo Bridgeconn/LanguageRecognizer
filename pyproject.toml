@@ -12,14 +12,15 @@ dependencies = [
 ]
 requires-python = ">=3.8"
 authors = [
-    {name = "Kavitha Raju", email = "Kavitha.Raju@bridgeconn.com"},
+    {name = "BCS Team", email = "joel@bridgeconn.com"},
 ]
 maintainers = [ 
-    {name = "BCS Team"}
+    {name = "Kavitha Raju", email = "Kavitha.Raju@bridgeconn.com"}, 
+    {name = "Gladys Ann Varughese", email = "gladysann1307@gmail.com"},
 ]
 description = "This is a language detection library using ML models"
 readme = "README.md"
-license = {file = "LICENSE"}
+license = {text = "MIT License"}
 keywords = ["language detection", "machine learning", "script detection", "natural language processing", "text classification", "multilingual"]
 classifiers = [
     "Development Status :: 4 - Beta", 
