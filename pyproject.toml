@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "language-detect"
+dependencies = [
+    "joblib==1.4.2", 
+    "unicodedataplus==16.0.0", 
+    "fuzzywuzzy==0.18.0", 
+    "Levenshtein==0.26.1"
+]
+requires-python = ">=3.8"
+authors = [
+    {name = "Kavitha Raju", email = "Kavitha.Raju@bridgeconn.com"},
+]
+maintainers = [ 
+    {name = "BCS Team"}
+]
+description = "This is a language detection library using ML models"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["language detection", "machine learning", "script detection", "natural language processing", "text classification", "multilingual"]
+classifiers = [
+    "Development Status :: 4 - Beta", 
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+dynamic = ["version"]
+
+[project.urls]
+Repository = "https://github.com/Bridgeconn/LanguageRecognizer"
+
+[tool.setuptools.package-data]
+language_detect = ["models/*.joblib"]

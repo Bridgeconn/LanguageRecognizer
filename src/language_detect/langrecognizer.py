@@ -1,6 +1,7 @@
 '''Take input text and output its language and script'''
-from script_detector import detect_script
+from .script_detector import detect_script
 import joblib
+import os
 
 def recognize_language(text):
     '''
@@ -9,16 +10,24 @@ def recognize_language(text):
     '''
     try:
         script_name = detect_script(text)
-        vectorizer_path = f"../models/{script_name}_model_vectorizer.joblib"
+
+        if not script_name:
+            raise ValueError("Script detection failed.")
+
+        model_dir = os.path.join(os.path.dirname(__file__), 'models')
+        vectorizer_path = os.path.join(model_dir, f"{script_name}_vectorizer.joblib")
+        model_path = os.path.join(model_dir, f"{script_name}_model.joblib")
+
         vectorizer = joblib.load(vectorizer_path)
         vectorized_text = vectorizer.transform([text])
-        model_path = f"../models/{script_name}_model.joblib"
+
         model = joblib.load(model_path)
         language_name = str(model.predict(vectorized_text)[0])
+        
         return (language_name, script_name)
     except FileNotFoundError as fnf_error:
-        print(f"Error: Language model not available for the script {script_name}")
+        print(f"Error: {fnf_error}")
 
 if __name__ == "__main__":
     text = "यहोवा का भय मानना, जीवन का सोता है, और उसके द्वारा लोग मृत्यु के फंदों से बच जाते हैं।"
-    print(recognize_language(text))
+    print(recognize_language(text))   

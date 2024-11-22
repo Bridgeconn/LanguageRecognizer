@@ -1,4 +1,4 @@
-from modellist import model_list
+from .modellist import model_list
 from fuzzywuzzy import fuzz
  
 def list_models(script_name=None, lang_name=None, downloaded=None):

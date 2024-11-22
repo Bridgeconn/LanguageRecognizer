@@ -93,21 +93,19 @@ if __name__ == "__main__":
 	# feat = FeatureExtraction.NGRAMS_2_3_DIM5000
 	# test_set_ratio = 0.2
 
-
 	# script_name = 'Devanagari'
 	# data_file = f"../experiment_data/vachan_data/{script_name}_combineddata.csv"
 	# model_path = f"../models/{script_name}_model"
 	# algo = Algorithm.MNNB
-	# feat = FeatureExtraction.NGRAMS_3_ALL
+	# feat = FeatureExtraction.NGRAMS_3_2000
 	# test_set_ratio = 0.9
 
-	script_name = 'Thai'
+	script_name = 'Myanmar'
 	data_file = f"../experiment_data/ebible_corpus/ebible_corpus_data/{script_name}_data.csv"
 	model_path = f"../models/{script_name}_model"
 	algo = Algorithm.MNNB
 	feat = FeatureExtraction.NGRAMS_3_2000
 	test_set_ratio = 0.9
-
 
 	experiment_run(
 			script_name = script_name,

@@ -1,2 +1,4 @@
 joblib==1.4.2
 unicodedataplus==16.0.0
+fuzzywuzzy==0.18.0
+Levenshtein==0.26.1
