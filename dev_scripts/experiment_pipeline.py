@@ -78,34 +78,20 @@ def experiment_run(script_name, data_file, algo, feat, test_set_ratio, model_pat
 	elif algo == Algorithm.LOGISTIC_REGRESSION:
 		model = train_model_LR(train_data)
 
-	joblib.dump(model, f"{model_path}.joblib")
+	joblib.dump(model, f"{model_path}_model.joblib")
 	joblib.dump(count_vectorizer, f"{model_path}_vectorizer.joblib")
 
 	run_eval(model, test_data, log_file=f"../logs/{script_name}_metrics")
 
 if __name__ == "__main__":
 	'''Configure the required experiment setup here for each run'''
-	# exp_no = 1
-	# script_name = 'latin'
-	# data_file = f"../experiment_data/ebible_corpus/ebible_corpus_data/{script_name}_data.csv"
-	# model_path = f"../models/run_{exp_no}_{script_name}"
-	# algo = Algorithm.MNNB
-	# feat = FeatureExtraction.NGRAMS_2_3_DIM5000
-	# test_set_ratio = 0.2
-
-	# script_name = 'Devanagari'
-	# data_file = f"../experiment_data/vachan_data/{script_name}_combineddata.csv"
-	# model_path = f"../models/{script_name}_model"
-	# algo = Algorithm.MNNB
-	# feat = FeatureExtraction.NGRAMS_3_2000
-	# test_set_ratio = 0.9
-
-	script_name = 'Myanmar'
+	exp_no = 1
+	script_name = 'latin'
 	data_file = f"../experiment_data/ebible_corpus/ebible_corpus_data/{script_name}_data.csv"
-	model_path = f"../models/{script_name}_model"
+	model_path = f"../models/run_{exp_no}_{script_name}"
 	algo = Algorithm.MNNB
-	feat = FeatureExtraction.NGRAMS_3_2000
-	test_set_ratio = 0.9
+	feat = FeatureExtraction.NGRAMS_2_3_DIM5000
+	test_set_ratio = 0.2
 
 	experiment_run(
 			script_name = script_name,

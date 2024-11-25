@@ -8,7 +8,7 @@ import pandas as pd
 from collections import Counter
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer
-from script_detector import detect_script
+from language_detect.script_detector import detect_script
 # from transformers import BertTokenizer
 
 def process_text(text):
