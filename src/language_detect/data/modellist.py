@@ -23,7 +23,6 @@ model_list = [
                     "PahariMahasui",
                     ],
         "model_name": "Devanagari_model",
-        "downloaded": True,
         "model_type": "Multinomial Naive Bayes",
         "vectorizer_model_name": "Devanagari_vectorizer",
         "vectorizer_type": "CountVectorizer",
@@ -32,7 +31,6 @@ model_list = [
             "max_features": 2000,
             "analyzer": "char"
         },
-        "vectorizer_downloaded": True,
         "accuracy": "99.05%",
     },
     {
@@ -47,7 +45,6 @@ model_list = [
                     "Urdu", 
                     ],
         "model_name": "Arabic_model",
-        "downloaded": False,
         "model_type": "Multinomial Naive Bayes",
         "vectorizer_model_name": "Arabic_vectorizer",
         "vectorizer_type": "CountVectorizer",
@@ -56,7 +53,6 @@ model_list = [
             "max_features": 2000,
             "analyzer": "char"
         },
-        "vectorizer_downloaded": False,
         "accuracy": "99.79%",
     },
     {
@@ -66,7 +62,6 @@ model_list = [
                     "Sanskrit", 
                     ],
         "model_name": "Bengali_model",
-        "downloaded": False,
         "model_type": "Multinomial Naive Bayes",
         "vectorizer_model_name": "Bengali_vectorizer",
         "vectorizer_type": "CountVectorizer",
@@ -75,7 +70,6 @@ model_list = [
             "max_features": 2000,
             "analyzer": "char"
         },
-        "vectorizer_downloaded": False,
         "accuracy": "99.81%",
     },
     {
@@ -88,7 +82,6 @@ model_list = [
                     "Ukrainian", 
                     ],
         "model_name": "Cyrillic_model",
-        "downloaded": False,
         "model_type": "Multinomial Naive Bayes",
         "vectorizer_model_name": "Cyrillic_vectorizer",
         "vectorizer_type": "CountVectorizer",
@@ -97,7 +90,6 @@ model_list = [
             "max_features": 2000,
             "analyzer": "char"
         },
-        "vectorizer_downloaded": False,
         "accuracy": "99.67%",
     },
     {
@@ -108,7 +100,6 @@ model_list = [
                     "Male (Ethiopia)", 
                     ],
         "model_name": "Ethiopic_model",
-        "downloaded": False,
         "model_type": "Multinomial Naive Bayes",
         "vectorizer_model_name": "Ethiopic_vectorizer",
         "vectorizer_type": "CountVectorizer",
@@ -117,7 +108,6 @@ model_list = [
             "max_features": 2000,
             "analyzer": "char"
         },
-        "vectorizer_downloaded": False,
         "accuracy": "98.33%",
     },
     {
@@ -126,7 +116,6 @@ model_list = [
                     "Sanskrit", 
                     ],
         "model_name": "Gujarati_model",
-        "downloaded": False,
         "model_type": "Multinomial Naive Bayes",
         "vectorizer_model_name": "Gujarati_vectorizer",
         "vectorizer_type": "CountVectorizer",
@@ -135,7 +124,6 @@ model_list = [
             "max_features": 2000,
             "analyzer": "char"
         },
-        "vectorizer_downloaded": False,
         "accuracy": "99.89%",
     },
     {
@@ -144,7 +132,6 @@ model_list = [
                     "Sanskrit", 
                     ],
         "model_name": "Gurmukhi_model",
-        "downloaded": False,
         "model_type": "Multinomial Naive Bayes",
         "vectorizer_model_name": "Gurmukhi_vectorizer",
         "vectorizer_type": "CountVectorizer",
@@ -153,7 +140,6 @@ model_list = [
             "max_features": 2000,
             "analyzer": "char"
         },
-        "vectorizer_downloaded": False,
         "accuracy": "99.89%",
     },
     {
@@ -162,7 +148,6 @@ model_list = [
                     "Hebrew", 
                     ],
         "model_name": "Hebrew_model",
-        "downloaded": False,
         "model_type": "Multinomial Naive Bayes",
         "vectorizer_model_name": "Hebrew_vectorizer",
         "vectorizer_type": "CountVectorizer",
@@ -171,7 +156,6 @@ model_list = [
             "max_features": 2000,
             "analyzer": "char"
         },
-        "vectorizer_downloaded": False,
         "accuracy": "100%",
     },
     {
@@ -979,7 +963,6 @@ model_list = [
                     "Zyphe Chin", 
                     ], 
         "model_name": "Latin_model",
-        "downloaded": False,
         "model_type": "Multinomial Naive Bayes",
         "vectorizer_model_name": "Latin_vectorizer",
         "vectorizer_type": "CountVectorizer",
@@ -988,7 +971,6 @@ model_list = [
             "max_features": 2000,
             "analyzer": "char"
         },
-        "vectorizer_downloaded": False,
         "accuracy": "98.15%",
     },
     {
@@ -997,7 +979,6 @@ model_list = [
                     "Sanskrit", 
                     ],
         "model_name": "Malayalam_model",
-        "downloaded": False,
         "model_type": "Multinomial Naive Bayes",
         "vectorizer_model_name": "Malayalam_vectorizer",
         "vectorizer_type": "CountVectorizer",
@@ -1006,7 +987,6 @@ model_list = [
             "max_features": 2000,
             "analyzer": "char"
         },
-        "vectorizer_downloaded": False,
         "accuracy": "99.59%",
     },
     {
@@ -1015,7 +995,6 @@ model_list = [
                     "Sanskrit", 
                     ],
         "model_name": "Myanmar_model",
-        "downloaded": False,
         "model_type": "Multinomial Naive Bayes",
         "vectorizer_model_name": "Myanmar_vectorizer",
         "vectorizer_type": "CountVectorizer",
@@ -1024,7 +1003,6 @@ model_list = [
             "max_features": 2000,
             "analyzer": "char"
         },
-        "vectorizer_downloaded": False,
         "accuracy": "99.96%",
     },
     {
@@ -1033,7 +1011,6 @@ model_list = [
                     "Sanskrit", 
                     ],
         "model_name": "Oriya_model",
-        "downloaded": False,
         "model_type": "Multinomial Naive Bayes",
         "vectorizer_model_name": "Oriya_vectorizer",
         "vectorizer_type": "CountVectorizer",
@@ -1042,7 +1019,6 @@ model_list = [
             "max_features": 2000,
             "analyzer": "char"
         },
-        "vectorizer_downloaded": False,
         "accuracy": "99.94%",
     },
     {
@@ -1051,7 +1027,6 @@ model_list = [
                     "Sanskrit", 
                     ],
         "model_name": "Tamil_model",
-        "downloaded": False,
         "model_type": "Multinomial Naive Bayes",
         "vectorizer_model_name": "Tamil_vectorizer",
         "vectorizer_type": "CountVectorizer",
@@ -1060,7 +1035,6 @@ model_list = [
             "max_features": 2000,
             "analyzer": "char"
         },
-        "vectorizer_downloaded": False,
         "accuracy": "99.94%",
     },
     {
@@ -1069,7 +1043,6 @@ model_list = [
                     "Sanskrit", 
                     ],
         "model_name": "Telugu_model",
-        "downloaded": False,
         "model_type": "Multinomial Naive Bayes",
         "vectorizer_model_name": "Telugu_vectorizer",
         "vectorizer_type": "CountVectorizer",
@@ -1078,7 +1051,6 @@ model_list = [
             "max_features": 2000,
             "analyzer": "char"
         },
-        "vectorizer_downloaded": False,
         "accuracy": "99.94%",
     },
     {
@@ -1087,7 +1059,6 @@ model_list = [
                     "Sanskrit", 
                     ],
         "model_name": "Thai_model",
-        "downloaded": False,
         "model_type": "Multinomial Naive Bayes",
         "vectorizer_model_name": "Thai_vectorizer",
         "vectorizer_type": "CountVectorizer",
@@ -1096,7 +1067,6 @@ model_list = [
             "max_features": 2000,
             "analyzer": "char"
         },
-        "vectorizer_downloaded": False,
         "accuracy": "100%",
     },
 ]
