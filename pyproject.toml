@@ -34,5 +34,4 @@ dynamic = ["version"]
 Repository = "https://github.com/Bridgeconn/LanguageRecognizer"
 
 [tool.setuptools.package-data]
-language_detect = ["models/*.joblib"]
-language_detect = ["data/*.py"]
+language_detect = ["models/*.joblib", "data/*.py"]
