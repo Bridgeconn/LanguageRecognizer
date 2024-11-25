@@ -1,10 +1,8 @@
 # language-detect
-This is a language detection library using ML models
+This is a language detection library using ML models that supports 862 languages out of the box and can be updated by users to support more languages.
 
 ## System Description
-Given a text, examine the script and word formations to determine the language. 
-The aim is to correctly distinguish those languages that follow same script.
-Meant to be used as the fist step for text processing pipelines that use language dependant next steps like spell checks or rendering.
+The goal is to examine the script and word formations of a given text in order to accurately identify the language. This is particularly important for distinguishing between languages that share the same script. This functionality serves as a crucial first step in text processing pipelines, where subsequent steps such as spell checking or rendering are dependent on the identified language.
 
 ## Installation
 To install language_detect, you can use pip:
@@ -38,7 +36,7 @@ list_languages() : Returns a list of all languages available in the database, ea
 
 list_scripts() : Returns a list of all script names available in the database.
 
-list_models(script_name=None, lang_name=None, downloaded=None) : Filters and returns models as a list of dictionaries based on the provided script name, language name or download status. If no arguments are provided, it returns all available models.
+list_models(script_name=None, lang_name=None, downloaded=None) : Filters and returns models as a list of dictionaries based on the provided script name, language name or download status. The filter arguments are optional, and if no arguments are provided, it returns all available models.
 
 get_model(script_name, lang_name=None) : Fetches and returns a specific model from the database as a dictionary, based on the provided script name and optional language name. 
 
