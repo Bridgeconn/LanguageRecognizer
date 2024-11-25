@@ -2,6 +2,7 @@
 from huggingface_hub.utils import enable_progress_bars
 from huggingface_hub import hf_hub_download
 from script_detector import detect_script
+from ld_dir import check_for_ld_dir
 import joblib
 import os
 
@@ -10,6 +11,7 @@ def recognize_language(text):
     Input: The text in the unknown language
     Output: The identified script name and language as a tuple
     """
+    check_for_ld_dir()
     enable_progress_bars()
     repo_id="Gladys-Ann-Varughese/multi-script-language-identifier"
     try:
@@ -58,4 +60,3 @@ def recognize_language(text):
         print(f"Error: {fnf_error}")
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
-  
