@@ -2,7 +2,7 @@
 from huggingface_hub.utils import enable_progress_bars
 from huggingface_hub import hf_hub_download
 from script_detector import detect_script
-from ld_dir import check_for_ld_dir
+from ld_dir import create_ld_dir
 import joblib
 import os
 
@@ -11,7 +11,7 @@ def recognize_language(text):
     Input: The text in the unknown language
     Output: The identified script name and language as a tuple
     """
-    check_for_ld_dir()
+    create_ld_dir()
     enable_progress_bars()
     repo_id="Gladys-Ann-Varughese/multi-script-language-identifier"
     try:
@@ -21,7 +21,7 @@ def recognize_language(text):
             raise ValueError("Script detection failed.")
 
         home_dir = os.path.expanduser("~")
-        models_dir = os.path.join(home_dir, ".ld_models")
+        models_dir = os.path.join(home_dir, ".ld_data", "models")
 
         os.makedirs(models_dir, exist_ok=True)
 
