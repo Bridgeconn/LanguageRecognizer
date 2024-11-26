@@ -1,0 +1,8 @@
+exclude dev_scripts/*
+exclude docs/*
+exclude logs/*
+exclude experiment_data/ebible_corpus/*
+exclude experiment_data/vachan_data/*
+exclude models/*
+exclude dev-requirements.txt
+exclude .gitignore
