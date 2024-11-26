@@ -1,5 +1,5 @@
-from data.modellist import model_list
-from ld_dir import create_ld_dir
+from .data.modellist import model_list
+from .ld_dir import create_ld_dir
 from fuzzywuzzy import fuzz
 import os
 

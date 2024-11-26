@@ -2,3 +2,5 @@ joblib==1.4.2
 unicodedataplus==16.0.0
 fuzzywuzzy==0.18.0
 Levenshtein==0.26.1
+huggingface-hub==0.26.2
+scikit-learn==1.5.2

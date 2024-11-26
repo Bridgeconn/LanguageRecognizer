@@ -1,8 +1,8 @@
 '''Take input text and output its language and script'''
 from huggingface_hub.utils import enable_progress_bars
 from huggingface_hub import hf_hub_download
-from script_detector import detect_script
-from ld_dir import create_ld_dir
+from .script_detector import detect_script
+from .ld_dir import create_ld_dir
 import joblib
 import os
 
