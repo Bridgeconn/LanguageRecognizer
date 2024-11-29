@@ -1,20 +1,32 @@
-from .data.modellist import model_list
 from .ld_dir import create_ld_dir
 from fuzzywuzzy import fuzz
+import importlib.util
+import glob
 import os
 
+create_ld_dir()
+home_dir = os.path.expanduser("~")
+models_dir = os.path.join(home_dir, ".ld_data", "models")
+data_dir = os.path.join(home_dir, ".ld_data", "data")
+modellist_path = os.path.join(data_dir, "modellist.py")
+
+def load_module(path):
+    spec = importlib.util.spec_from_file_location("module", path)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
 def is_model_downloaded(script_name):
-    """Check if both model and vectorizer files exist for a script"""
-    create_ld_dir()
-    home_dir = os.path.expanduser("~")
-    models_dir = os.path.join(home_dir, ".ld_data", "models")
     
-    model_path = os.path.join(models_dir, f"{script_name}-model", f"{script_name}_model.joblib")
-    vectorizer_path = os.path.join(models_dir, f"{script_name}-vectorizer", f"{script_name}_vectorizer.joblib")
-    
-    return os.path.exists(model_path) and os.path.exists(vectorizer_path)
+    model_files = glob.glob(os.path.join(models_dir, f"{script_name}-model", f"{script_name}_model*.joblib"))
+    vectorizer_files = glob.glob(os.path.join(models_dir, f"{script_name}-vectorizer", f"{script_name}_vectorizer*.joblib"))
+
+    return bool(model_files) and bool(vectorizer_files)
+
 
 def list_models(script_name=None, lang_name=None, downloaded=None):
+    create_ld_dir()
+    model_list = load_module(modellist_path).model_list
     filtered_models = model_list[:]
     
     for model in model_list:
@@ -52,6 +64,8 @@ def list_models(script_name=None, lang_name=None, downloaded=None):
 
 
 def get_model(script_name, lang_name=None):
+    create_ld_dir()
+    model_list = load_module(modellist_path).model_list
     if not script_name:
         raise ValueError("Script name must be provided")  
     script_found = False
@@ -71,6 +85,3 @@ def get_model(script_name, lang_name=None):
                 return model
     if not script_found:
         raise ValueError(f"Script '{script_name}' not available")
-
-if __name__ == "__main__":
-    print(list_models(downloaded=True))
