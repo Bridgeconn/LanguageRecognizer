@@ -165,6 +165,7 @@ def add_language(data_file):
         return {
             "script_name": script_name,
             "model_name": model_name,
+            "vectorizer_name": vectorizer_name,
             "accuracy": accuracy,
             "precision": precision,
             "recall": recall,
@@ -175,7 +176,3 @@ def add_language(data_file):
         raise FileNotFoundError(f"File error: {e}") from e
     except Exception as e:
         raise RuntimeError(f"An unexpected error occurred: {e}") from e
-
-if __name__ == "__main__":
-    modelpath = "../../experiment_data/ebible_corpus/ebible_corpus_data/Sinhala_data.csv"
-    print(add_language(modelpath))
