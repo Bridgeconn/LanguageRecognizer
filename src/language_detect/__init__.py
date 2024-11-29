@@ -4,3 +4,4 @@ from .list_lang_script import list_scripts
 from .list_lang_script import list_languages
 from .langrecognizer import recognize_language
 from .script_detector import detect_script
+from .addlanguage import add_language

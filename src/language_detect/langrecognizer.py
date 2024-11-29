@@ -1,4 +1,3 @@
-'''Take input text and output its language and script'''
 from huggingface_hub.utils import enable_progress_bars
 from huggingface_hub import hf_hub_download
 from .script_detector import detect_script
@@ -49,7 +48,7 @@ def recognize_language(text, custom_model = None, custom_vectorizer = None):
                 partial_dir = os.path.join(models_dir, f"{script_name}-vectorizer")
                 if os.path.exists(partial_dir):
                     shutil.rmtree(partial_dir)
-                raise FileNotFoundError(f"Error: Model not found for {script_name}") from e    
+                raise FileNotFoundError(f"Error: Model not found for {script_name}")   
             
             try:
                 model_path = hf_hub_download(
@@ -61,7 +60,7 @@ def recognize_language(text, custom_model = None, custom_vectorizer = None):
                 partial_dir = os.path.join(models_dir, f"{script_name}-model")
                 if os.path.exists(partial_dir):
                     shutil.rmtree(partial_dir)
-                raise FileNotFoundError(f"Error: Model not found for {script_name}") from e           
+                raise FileNotFoundError(f"Error: Model not found for {script_name}")           
 
         vectorizer = joblib.load(vectorizer_path)
         vectorized_text = vectorizer.transform([text])

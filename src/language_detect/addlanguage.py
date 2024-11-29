@@ -6,7 +6,7 @@ from .train import train_model_MNNB
 from .data_prep import get_ngrams
 from .script_detector import detect_script
 from .ld_dir import create_ld_dir
-import importlib
+import importlib.util
 
 home_dir = os.path.expanduser("~")
 ld_dir = os.path.join(home_dir, ".ld_data")
